@@ -12,7 +12,7 @@ var builder = Host.CreateDefaultBuilder()
         services.AddSingleton<ServiceBusClient>(sp =>
         {
             var configuration = sp.GetRequiredService<IConfiguration>();
-            var connectionString = configuration.GetConnectionString("ServiceBusConnection");
+            var connectionString = configuration.GetConnectionString("ServiceBusConnectionString");
 
             // Crea e restituisci il ServiceBusClient
             return new ServiceBusClient(connectionString);
