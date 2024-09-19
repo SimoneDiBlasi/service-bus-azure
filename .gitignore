@@ -22,3 +22,15 @@ azure-webservice-api/azure-webservice-api/obj/
 azure-webservice-api/azure-web-service-quartz/azure-web-service-quartz/obj/Release/net8.0/
 
 azure-webservice-api/azure-web-service-quartz/azure-web-service-quartz/obj/
+
+*.dll
+
+azure-webservice-api/azure-webservice-api/bin/Debug/net8.0/
+
+azure-webservice-api/Worker/obj/Debug/net8.0/
+
+azure-webservice-api/Worker/bin/Debug/net8.0/
+
+azure-webservice-api/Worker/obj/
+
+*.txt
