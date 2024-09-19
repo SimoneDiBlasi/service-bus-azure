@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "azure-web-service-quartz": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
